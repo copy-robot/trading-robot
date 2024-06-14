@@ -24,11 +24,11 @@ Bitget:
     Amount: 100                 //跟随金额，名义价值
 
 Tradingview:                    //对接tradingview webhook 安全配置，请勿泄露
-  TradeUserId: "<TradeUserId>"  //自定义Id 如： "f581eef1fc67d0f3a8a000184edb7359  (https://www.okx.com/zh-hans/copy-trading/account/F6120D38A1EFE6CB?tab=swap)
+  TradeUserId: "<TradeUserId>"  //自定义Id 如： "f581eef1fc67d0f3a8a000184edb7359  
   SecretKey: "<SecretKey>"      //自定义secret key 如： "66438f1e4cd1438485b98bd5f691e6f7"
 
 TradeUser:                     //okx交易员信息
-  - Id: "F6120D38A1EFE6CB"     //自定义Id 如： "F6120D38A1EFE6CB"
+  - Id: "F6120D38A1EFE6CB"     //自定义Id 如： "F6120D38A1EFE6CB" (https://www.okx.com/zh-hans/copy-trading/account/F6120D38A1EFE6CB?tab=swap)
     Name: "神鬼军师"            //自定义名称 如： "神鬼军师"
 ```
 
