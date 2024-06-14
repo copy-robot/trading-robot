@@ -6,7 +6,7 @@ This is a trading robot that can be used to automate trading on various exchange
 
 ## 配置
 
-添加您的 config[trading.yaml](etc%2Ftrading.yaml) 文件：
+添加您的[trading.yaml](etc%2Ftrading.yaml) 文件：
 
 ```sh
 Name: trading // 项目名称
