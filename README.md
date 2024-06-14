@@ -1,12 +1,12 @@
 # trading-robot
-一个用Go编写的现代加密货币交易机器人。自行部署，无需第三方依赖。
+一个用Go编写的现代加密货币交易机器人。自行部署，无需第三方依赖。支持 Tradingview Webhook/OKX交易员模式。支持多交易所，多币种，多账户。
 This is a trading robot that can be used to automate trading on various exchanges.
 
 [![Telegram Global](https://img.shields.io/badge/telegram-global-blue.svg)](https://t.me/+SWTypVxPsQc2MWQ1)
 
 ## 配置
 
-添加您的[trading.yaml](etc%2Ftrading.yaml) 文件：
+修改配置文件[trading.yaml](etc%2Ftrading.yaml) ：
 
 ```sh
 Name: trading // 项目名称
@@ -24,7 +24,7 @@ Bitget:
     Amount: 100                 //跟随金额，名义价值
 
 Tradingview:                    //对接tradingview webhook 安全配置，请勿泄露
-  TradeUserId: "<TradeUserId>"  //自定义Id 如： "f581eef1fc67d0f3a8a000184edb7359
+  TradeUserId: "<TradeUserId>"  //自定义Id 如： "f581eef1fc67d0f3a8a000184edb7359  (https://www.okx.com/zh-hans/copy-trading/account/F6120D38A1EFE6CB?tab=swap)
   SecretKey: "<SecretKey>"      //自定义secret key 如： "66438f1e4cd1438485b98bd5f691e6f7"
 
 TradeUser:                     //okx交易员信息
@@ -115,3 +115,15 @@ URL: https://服务器ip:端口/api/order/create 或者 https://trading.example.
 ## 程序唯一客服 
 
 [![Telegram Global](https://img.shields.io/badge/telegram-global-blue.svg)](https://t.me/+SWTypVxPsQc2MWQ1)
+
+## 我们的优势
+- 毫秒级数据响应:通过自研的数据获取底层，以及高效的数据处理手段等，做到高速的数据响应。
+- 精准的仓位管理:仓位管理是任何策略的重中之重，做好仓位管理，投资风险了然于心，一切交给量化程序决定。
+- 专业的技术团队:拥有超过6年的量化研发经验， 在高频策略领域里能做到第一梯队。
+- 私人定制策略开发:无需任何编程基础，灵活制定量化策略，支持自定义的技术指标。同时还支持极低风险的现货对冲、CTA复合多因子对冲、毫秒级高频策略系统。
+- 资金安全有保障:每一个客户都是独立的个体，量化程序运行于客户自己的服务器中，相关账号和密钥均被加密后保存在用户机器上，不会上传。
+- 中央行情数据中心:我们拥有最快的行情信号服务，给每个使用我们策略中心的用户点对点分发，杜绝因交易所延迟带来的资金损失。
+
+## 24小时全自动跟单策略
+毫秒级响应：同一秒内快速开单，确保交易实时性和精准性。
+突破隐藏仓位：即使是满员状态，也能实现无障碍跟单。
