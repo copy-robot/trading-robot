@@ -1,5 +1,5 @@
 # trading-robot
-一个用Go编写的现代加密货币交易机器人。自行部署，无需第三方依赖。支持 Tradingview Webhook/OKX交易员模式。支持多币种、多账户、带单模式。
+一个用Go编写的现代加密货币交易机器人。自行部署，无需第三方依赖。支持 Tradingview Webhook、OKX交易员模式。支持多币种、多账户、带单模式。
 This is a trading robot that can be used to automate trading on various exchanges.
 
 [![Telegram Global](https://img.shields.io/badge/telegram-global-blue.svg)](https://t.me/+SWTypVxPsQc2MWQ1)
