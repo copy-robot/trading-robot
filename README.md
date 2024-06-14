@@ -1,5 +1,5 @@
 # trading-robot
-一个用Go编写的现代加密货币交易机器人。自行部署，无需第三方依赖。支持 Tradingview Webhook/OKX交易员模式。支持多交易所，多币种，多账户。
+一个用Go编写的现代加密货币交易机器人。自行部署，无需第三方依赖。支持 Tradingview Webhook/OKX交易员模式。支持多币种、多账户、带单模式。
 This is a trading robot that can be used to automate trading on various exchanges.
 
 [![Telegram Global](https://img.shields.io/badge/telegram-global-blue.svg)](https://t.me/+SWTypVxPsQc2MWQ1)
@@ -27,8 +27,8 @@ Tradingview:                    //对接tradingview webhook 安全配置，请�
   TradeUserId: "<TradeUserId>"  //自定义Id 如： "f581eef1fc67d0f3a8a000184edb7359  
   SecretKey: "<SecretKey>"      //自定义secret key 如： "66438f1e4cd1438485b98bd5f691e6f7"
 
-TradeUser:                     //okx交易员信息
-  - Id: "F6120D38A1EFE6CB"     //自定义Id 如： "F6120D38A1EFE6CB" (https://www.okx.com/zh-hans/copy-trading/account/F6120D38A1EFE6CB?tab=swap)
+TradeUser:                     //okx交易员信息 如：(https://www.okx.com/zh-hans/copy-trading/account/F6120D38A1EFE6CB?tab=swap)
+  - Id: "F6120D38A1EFE6CB"     //自定义Id 如： "F6120D38A1EFE6CB" 
     Name: "神鬼军师"            //自定义名称 如： "神鬼军师"
 ```
 
