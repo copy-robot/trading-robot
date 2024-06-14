@@ -1,0 +1,22 @@
+Name: trading
+Host: 0.0.0.0
+Port: 8888
+
+Bitget:
+  - Id: 1
+    ApiKey: "<ApiKey>"
+    SecretKey: "<SecretKey>"
+    Passphrase: "<Passphrase>"
+    IsOpen: true
+    IsTrader: 1
+    Mode: 2
+    Proportion: 0.5
+    Amount: 1
+
+Tradingview:
+  TradeUserId: "<TradeUserId>"
+  SecretKey: "<SecretKey>"
+
+TradeUser:
+  - Id: "F6120D38A1EFE6CB"
+    Name: "神鬼军师"
